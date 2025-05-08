@@ -1,4 +1,4 @@
-﻿/*
+/*
 All this code is copyright Orteil, 2013-2023.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -16878,6 +16878,7 @@ window.onload=function()
 						}
 					}
 					if (App && App.loadMods) App.loadMods(launch);
+					else launch();
 				});
 			}}(lang));
 		}
